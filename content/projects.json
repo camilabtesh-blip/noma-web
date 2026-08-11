@@ -738,12 +738,20 @@
     {
       "slug": "mine",
       "name": "mine",
-      "subtitle": "reforma integral · interiorismo",
-      "year": "",
-      "photographer": "",
+      "subtitle": "interiorismo integral ",
+      "year": "2023",
+      "photographer": "val castagnotti",
       "photos": [
         {
           "src": "/assets/img/proyectos/mine/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/10.jpg",
           "width": "full"
         },
         {
@@ -779,16 +787,16 @@
           "width": "half"
         },
         {
-          "src": "/assets/img/proyectos/mine/10.jpg",
-          "width": "full"
+          "width": "full",
+          "src": "/assets/img/proyectos/16_dsc2093-copia.jpg"
         },
         {
-          "src": "/assets/img/proyectos/mine/11.jpg",
-          "width": "full"
+          "width": "half",
+          "src": "/assets/img/proyectos/50_dsc2152-copia.jpg"
         },
         {
-          "src": "/assets/img/proyectos/mine/12.jpg",
-          "width": "full"
+          "width": "full",
+          "src": "/assets/img/proyectos/15_dsc2083-copia.jpg"
         }
       ]
     },
@@ -796,7 +804,7 @@
       "slug": "parana",
       "name": "paraná",
       "subtitle": "reforma integral · interiorismo",
-      "year": "",
+      "year": "2024",
       "photographer": "",
       "photos": [
         {
@@ -804,28 +812,16 @@
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/parana/02.jpg",
+          "src": "/assets/img/proyectos/parana/10.jpg",
           "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/parana/03.jpg",
-          "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/parana/04.jpg",
-          "width": "half"
         },
         {
           "src": "/assets/img/proyectos/parana/05.jpg",
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/parana/06.jpg",
-          "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/parana/07.jpg",
-          "width": "half"
+          "src": "/assets/img/proyectos/parana/02.jpg",
+          "width": "full"
         },
         {
           "src": "/assets/img/proyectos/parana/08.jpg",
@@ -836,16 +832,24 @@
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/parana/10.jpg",
-          "width": "full"
+          "src": "/assets/img/proyectos/parana/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/04.jpg",
+          "width": "half"
         }
       ]
     },
     {
       "slug": "cabrera",
       "name": "cabrera",
-      "subtitle": "reciclaje de azotea · interiorismo",
-      "year": "",
+      "subtitle": "obra nueva en azotea · reforma",
+      "year": "2025",
       "photographer": "",
       "photos": [
         {
@@ -903,6 +907,9 @@
         },
         {
           "src": "/assets/img/proyectos/dormitorio-juanita/04.jpg",
+          "width": "full"
+        },
+        {
           "width": "full"
         }
       ]
