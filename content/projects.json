@@ -4,8 +4,8 @@
       "slug": "mendoza",
       "name": "mendoza",
       "subtitle": "reforma integral · interiorismo",
-      "year": "",
-      "photographer": "",
+      "year": "2021",
+      "photographer": "magali saberian",
       "photos": [
         {
           "src": "/assets/img/proyectos/mendoza/01.jpg",
@@ -44,8 +44,8 @@
           "width": "half"
         },
         {
-          "src": "/assets/img/proyectos/mendoza/10.jpg",
-          "width": "half"
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-2-1-.jpg",
+          "width": "full"
         },
         {
           "src": "/assets/img/proyectos/mendoza/11.jpg",
@@ -66,6 +66,18 @@
         {
           "src": "/assets/img/proyectos/mendoza/15.jpg",
           "width": "full"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-23.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-18.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-15.jpg"
         }
       ]
     },
@@ -886,6 +898,7 @@
           "width": "full"
         }
       ]
-    }
+    },
+    {}
   ]
 }
