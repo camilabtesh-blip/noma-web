@@ -85,24 +85,56 @@
       "photographer": "pompi gutnisky",
       "photos": [
         {
-          "src": "/assets/img/proyectos/fraga/04.jpg",
-          "width": "full"
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4216baja.jpg"
         },
         {
           "src": "/assets/img/proyectos/fraga/05.jpg",
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/fraga/01.jpg",
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4496baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4377baja.jpg"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/04.jpg",
           "width": "full"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4562baja.jpg"
         },
         {
           "src": "/assets/img/proyectos/fraga/03.jpg",
           "width": "full"
         },
         {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4823baja.jpg"
+        },
+        {
           "src": "/assets/img/proyectos/fraga/06.jpg",
           "width": "half"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4911baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4684baja.jpg"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/14.jpg",
+          "width": "full"
         },
         {
           "src": "/assets/img/proyectos/fraga/09.jpg",
@@ -119,46 +151,6 @@
         {
           "src": "/assets/img/proyectos/fraga/08.jpg",
           "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/14.jpg",
-          "width": "full"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutnisky5021-baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4863baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4823baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4911baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4684baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4562baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4496baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4377baja.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/©gutniskydsc_4251baja.jpg"
         },
         {
           "width": "full",
@@ -894,7 +886,7 @@
       "slug": "dormitorio-juanita",
       "name": "dormitorio juanita",
       "subtitle": "dormitorio infantil · interiorismo",
-      "year": "",
+      "year": "205",
       "photographer": "",
       "photos": [
         {
@@ -914,7 +906,6 @@
           "width": "full"
         }
       ]
-    },
-    {}
+    }
   ]
 }
