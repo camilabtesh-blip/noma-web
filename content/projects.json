@@ -1,0 +1,891 @@
+{
+  "projects": [
+    {
+      "slug": "mendoza",
+      "name": "mendoza",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/mendoza/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/10.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/13.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/14.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza/15.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "fraga",
+      "name": "fraga",
+      "subtitle": "dúplex · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/fraga/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/04.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/09.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/12.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/13.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/14.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/15.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "ps-oficinas",
+      "name": "parque industrial suárez — oficinas",
+      "subtitle": "oficinas corporativas · arquitectura",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/04.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/13.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-oficinas/14.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "ps-comedor",
+      "name": "parque industrial suárez — comedor",
+      "subtitle": "comedor de personal · arquitectura",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/ps-comedor/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/05.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/ps-comedor/08.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "charlone",
+      "name": "charlone",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/charlone/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/04.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/10.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/13.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/14.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/charlone/15.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "nila",
+      "name": "nila",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/nila/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/04.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/09.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/11.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/nila/12.jpg",
+          "width": "half"
+        }
+      ]
+    },
+    {
+      "slug": "sucre",
+      "name": "sucre",
+      "subtitle": "desarrollo residencial · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/sucre/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/13.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/14.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/15.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/16.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/17.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/sucre/18.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "virrey",
+      "name": "virrey",
+      "subtitle": "desarrollo residencial · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/virrey/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/04.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/10.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/13.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/14.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/15.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/16.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/17.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/18.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/19.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/virrey/20.jpg",
+          "width": "half"
+        }
+      ]
+    },
+    {
+      "slug": "3-de-febrero",
+      "name": "3 de febrero",
+      "subtitle": "vivienda unifamiliar · arquitectura",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/05.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/09.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/12.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/3-de-febrero/13.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "delta",
+      "name": "delta",
+      "subtitle": "casa de fin de semana · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/delta/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/12.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/delta/13.jpg",
+          "width": "half"
+        }
+      ]
+    },
+    {
+      "slug": "11-de-septiembre",
+      "name": "11 de septiembre",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/03.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/05.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/10.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/11-de-septiembre/11.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "mine",
+      "name": "mine",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/mine/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/08.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/09.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/10.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/11.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mine/12.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "parana",
+      "name": "paraná",
+      "subtitle": "reforma integral · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/parana/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/06.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/08.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/09.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/parana/10.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "cabrera",
+      "name": "cabrera",
+      "subtitle": "reciclaje de azotea · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/cabrera/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/02.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/04.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/05.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/06.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/07.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/cabrera/08.jpg",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "dormitorio-juanita",
+      "name": "dormitorio juanita",
+      "subtitle": "dormitorio infantil · interiorismo",
+      "year": "",
+      "photographer": "",
+      "photos": [
+        {
+          "src": "/assets/img/proyectos/dormitorio-juanita/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/dormitorio-juanita/02.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/dormitorio-juanita/03.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/dormitorio-juanita/04.jpg",
+          "width": "full"
+        }
+      ]
+    }
+  ]
+}

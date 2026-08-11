@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>proyecto — noma estudio</title>
+<link rel="icon" href="../assets/img/logo/punto-azul.png">
+<link rel="stylesheet" href="../assets/css/style.css?v=10">
+</head>
+<body>
+
+<aside class="project-sidebar" id="sidebar">
+  <div class="side-top">
+    <a href="../index.html"><img src="../assets/img/logo/noma-azul.png?v=2" class="brand-mark" alt="noma"></a>
+    <a class="back" href="index.html">volver a proyectos</a>
+  </div>
+  <div class="side-name" id="side-name">
+    <h1 id="p-name"></h1>
+    <p id="p-subtitle"></p>
+  </div>
+</aside>
+
+<div class="project-main">
+  <div class="project-photos" id="p-photos"></div>
+
+  <dl class="project-info" id="p-info"></dl>
+
+  <footer class="site-footer">
+    <a href="../contacto.html">contacto</a>
+    <a href="https://www.instagram.com/noma__estudio/" target="_blank" rel="noopener">instagram</a>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('p');
+
+  fetch('../content/projects.json')
+    .then(r => r.json())
+    .then(data => {
+      const project = data.projects.find(p => p.slug === slug);
+      if (!project) {
+        document.getElementById('p-name').textContent = 'proyecto no encontrado';
+        return;
+      }
+
+      document.title = project.name + ' — noma estudio';
+      document.getElementById('p-name').textContent = project.name;
+      document.getElementById('p-subtitle').innerHTML =
+        project.subtitle + '<br>buenos aires, argentina';
+
+      const photosEl = document.getElementById('p-photos');
+      project.photos.forEach((photo, i) => {
+        const img = document.createElement('img');
+        img.src = '..' + photo.src;
+        img.alt = `${project.name} ${i + 1}`;
+        img.loading = 'lazy';
+        if (photo.width === 'half') img.className = 'half';
+        photosEl.appendChild(img);
+      });
+
+      const infoEl = document.getElementById('p-info');
+      if (project.year) {
+        infoEl.insertAdjacentHTML('beforeend', `<div><dt>año</dt><dd>${project.year}</dd></div>`);
+      }
+      if (project.photographer) {
+        infoEl.insertAdjacentHTML('beforeend', `<div><dt>fotografía</dt><dd>${project.photographer}</dd></div>`);
+      }
+    });
+})();
+</script>
+
+</body>
+</html>

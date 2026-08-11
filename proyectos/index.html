@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>proyectos — noma estudio</title>
+<link rel="icon" href="../assets/img/logo/punto-azul.png">
+<link rel="stylesheet" href="../assets/css/style.css?v=10">
+</head>
+<body>
+
+<aside class="project-sidebar">
+  <div class="side-top">
+    <a href="../index.html"><img src="../assets/img/logo/noma-azul.png?v=2" class="brand-mark" alt="noma"></a>
+    <a href="../estudio.html">estudio</a>
+    <a href="../publicaciones.html">publicaciones</a>
+  </div>
+</aside>
+
+<div class="grid-wrap">
+  <div class="projects-grid" id="grid"></div>
+</div>
+
+<footer class="site-footer">
+  <a href="../contacto.html">contacto</a>
+  <a href="https://www.instagram.com/noma__estudio/" target="_blank" rel="noopener">instagram</a>
+</footer>
+
+<script>
+fetch('../content/projects.json')
+  .then(r => r.json())
+  .then(data => {
+    const grid = document.getElementById('grid');
+    data.projects.forEach(project => {
+      if (!project.photos || !project.photos.length) return;
+      const a = document.createElement('a');
+      a.className = 'project-card';
+      a.href = `proyecto.html?p=${encodeURIComponent(project.slug)}`;
+      const img = document.createElement('img');
+      img.src = '..' + project.photos[0].src;
+      img.alt = project.name;
+      const label = document.createElement('span');
+      label.className = 'label';
+      label.textContent = project.name;
+      a.appendChild(img);
+      a.appendChild(label);
+      grid.appendChild(a);
+    });
+  });
+</script>
+
+</body>
+</html>
