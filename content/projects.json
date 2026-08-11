@@ -12,27 +12,31 @@
           "width": "full"
         },
         {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-15.jpg"
+        },
+        {
           "src": "/assets/img/proyectos/mendoza/02.jpg",
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/mendoza/03.jpg",
-          "width": "half"
+          "src": "/assets/img/proyectos/mendoza/15.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-2-1-.jpg",
+          "width": "full"
         },
         {
           "src": "/assets/img/proyectos/mendoza/04.jpg",
           "width": "half"
         },
         {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-18.jpg"
+        },
+        {
           "src": "/assets/img/proyectos/mendoza/05.jpg",
-          "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/mendoza/06.jpg",
-          "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/mendoza/07.jpg",
           "width": "full"
         },
         {
@@ -40,11 +44,15 @@
           "width": "full"
         },
         {
+          "width": "full",
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-23.jpg"
+        },
+        {
           "src": "/assets/img/proyectos/mendoza/09.jpg",
           "width": "half"
         },
         {
-          "src": "/assets/img/proyectos/mendoza-noma-estudio-2-1-.jpg",
+          "src": "/assets/img/proyectos/mendoza/07.jpg",
           "width": "full"
         },
         {
@@ -52,32 +60,20 @@
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/mendoza/12.jpg",
-          "width": "full"
+          "src": "/assets/img/proyectos/mendoza/14.jpg",
+          "width": "half"
         },
         {
           "src": "/assets/img/proyectos/mendoza/13.jpg",
           "width": "half"
         },
         {
-          "src": "/assets/img/proyectos/mendoza/14.jpg",
-          "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/mendoza/15.jpg",
+          "src": "/assets/img/proyectos/mendoza/12.jpg",
           "width": "full"
         },
         {
           "width": "full",
-          "src": "/assets/img/proyectos/mendoza-noma-estudio-23.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/mendoza-noma-estudio-18.jpg"
-        },
-        {
-          "width": "full",
-          "src": "/assets/img/proyectos/mendoza-noma-estudio-15.jpg"
+          "src": "/assets/img/proyectos/mendoza-noma-estudio-27.jpg"
         }
       ]
     },
@@ -85,21 +81,9 @@
       "slug": "fraga",
       "name": "fraga",
       "subtitle": "dúplex · interiorismo",
-      "year": "",
-      "photographer": "",
+      "year": "2023",
+      "photographer": "pompi gutnisky",
       "photos": [
-        {
-          "src": "/assets/img/proyectos/fraga/01.jpg",
-          "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/02.jpg",
-          "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/03.jpg",
-          "width": "full"
-        },
         {
           "src": "/assets/img/proyectos/fraga/04.jpg",
           "width": "full"
@@ -109,16 +93,16 @@
           "width": "full"
         },
         {
+          "src": "/assets/img/proyectos/fraga/01.jpg",
+          "width": "full"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/03.jpg",
+          "width": "full"
+        },
+        {
           "src": "/assets/img/proyectos/fraga/06.jpg",
           "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/07.jpg",
-          "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/08.jpg",
-          "width": "full"
         },
         {
           "src": "/assets/img/proyectos/fraga/09.jpg",
@@ -129,24 +113,56 @@
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/fraga/11.jpg",
+          "src": "/assets/img/proyectos/fraga/07.jpg",
+          "width": "half"
+        },
+        {
+          "src": "/assets/img/proyectos/fraga/08.jpg",
           "width": "full"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/12.jpg",
-          "width": "half"
-        },
-        {
-          "src": "/assets/img/proyectos/fraga/13.jpg",
-          "width": "half"
         },
         {
           "src": "/assets/img/proyectos/fraga/14.jpg",
           "width": "full"
         },
         {
-          "src": "/assets/img/proyectos/fraga/15.jpg",
-          "width": "full"
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutnisky5021-baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4863baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4823baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4911baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4684baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4562baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4496baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4377baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutniskydsc_4251baja.jpg"
+        },
+        {
+          "width": "full",
+          "src": "/assets/img/proyectos/©gutnisky5021-baja.jpg"
         }
       ]
     },
