@@ -31,43 +31,46 @@
   </footer>
 </div>
 
+<script src="../assets/js/sanity.js"></script>
 <script>
 (function () {
   const params = new URLSearchParams(location.search);
   const slug = params.get('p');
 
-  fetch('../content/projects.json')
-    .then(r => r.json())
-    .then(data => {
-      const project = data.projects.find(p => p.slug === slug);
-      if (!project) {
-        document.getElementById('p-name').textContent = 'proyecto no encontrado';
-        return;
-      }
+  const query = `*[_type == "project" && slug.current == $slug][0]{
+    name, subtitle, year, photographer,
+    photos[]{width, "url": image.asset->url}
+  }`;
 
-      document.title = project.name + ' — noma estudio';
-      document.getElementById('p-name').textContent = project.name;
-      document.getElementById('p-subtitle').innerHTML =
-        project.subtitle + '<br>buenos aires, argentina';
+  sanityQuery(query, {slug}).then((project) => {
+    if (!project) {
+      document.getElementById('p-name').textContent = 'proyecto no encontrado';
+      return;
+    }
 
-      const photosEl = document.getElementById('p-photos');
-      project.photos.forEach((photo, i) => {
-        const img = document.createElement('img');
-        img.src = '..' + photo.src;
-        img.alt = `${project.name} ${i + 1}`;
-        img.loading = 'lazy';
-        if (photo.width === 'half') img.className = 'half';
-        photosEl.appendChild(img);
-      });
+    document.title = project.name + ' — noma estudio';
+    document.getElementById('p-name').textContent = project.name;
+    document.getElementById('p-subtitle').innerHTML =
+      (project.subtitle || '') + '<br>buenos aires, argentina';
 
-      const infoEl = document.getElementById('p-info');
-      if (project.year) {
-        infoEl.insertAdjacentHTML('beforeend', `<div><dt>año</dt><dd>${project.year}</dd></div>`);
-      }
-      if (project.photographer) {
-        infoEl.insertAdjacentHTML('beforeend', `<div><dt>fotografía</dt><dd>${project.photographer}</dd></div>`);
-      }
+    const photosEl = document.getElementById('p-photos');
+    (project.photos || []).forEach((photo, i) => {
+      const img = document.createElement('img');
+      img.src = sanityImageUrl(photo.url, 1900);
+      img.alt = `${project.name} ${i + 1}`;
+      img.loading = 'lazy';
+      if (photo.width === 'half') img.className = 'half';
+      photosEl.appendChild(img);
     });
+
+    const infoEl = document.getElementById('p-info');
+    if (project.year) {
+      infoEl.insertAdjacentHTML('beforeend', `<div><dt>año</dt><dd>${project.year}</dd></div>`);
+    }
+    if (project.photographer) {
+      infoEl.insertAdjacentHTML('beforeend', `<div><dt>fotografía</dt><dd>${project.photographer}</dd></div>`);
+    }
+  });
 })();
 </script>
 

@@ -26,27 +26,31 @@
   <a href="https://www.instagram.com/noma__estudio/" target="_blank" rel="noopener">instagram</a>
 </footer>
 
+<script src="../assets/js/sanity.js"></script>
 <script>
-fetch('../content/projects.json')
-  .then(r => r.json())
-  .then(data => {
-    const grid = document.getElementById('grid');
-    data.projects.forEach(project => {
-      if (!project.photos || !project.photos.length) return;
-      const a = document.createElement('a');
-      a.className = 'project-card';
-      a.href = `proyecto.html?p=${encodeURIComponent(project.slug)}`;
-      const img = document.createElement('img');
-      img.src = '..' + project.photos[0].src;
-      img.alt = project.name;
-      const label = document.createElement('span');
-      label.className = 'label';
-      label.textContent = project.name;
-      a.appendChild(img);
-      a.appendChild(label);
-      grid.appendChild(a);
-    });
+const query = `*[_type == "project" && count(photos) > 0] | order(order asc) {
+  name,
+  "slug": slug.current,
+  "cover": photos[0].image.asset->url
+}`;
+
+sanityQuery(query).then((projects) => {
+  const grid = document.getElementById('grid');
+  (projects || []).forEach((project) => {
+    const a = document.createElement('a');
+    a.className = 'project-card';
+    a.href = `proyecto.html?p=${encodeURIComponent(project.slug)}`;
+    const img = document.createElement('img');
+    img.src = sanityImageUrl(project.cover, 900);
+    img.alt = project.name;
+    const label = document.createElement('span');
+    label.className = 'label';
+    label.textContent = project.name;
+    a.appendChild(img);
+    a.appendChild(label);
+    grid.appendChild(a);
   });
+});
 </script>
 
 </body>
