@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>proyecto — noma estudio</title>
 <link rel="icon" href="../assets/img/logo/punto-azul.png">
-<link rel="stylesheet" href="../assets/css/style.css?v=13">
+<link rel="stylesheet" href="../assets/css/style.css?v=14">
 </head>
 <body>
 
@@ -14,14 +14,18 @@
     <a href="../index.html"><img src="../assets/img/logo/noma-azul.png?v=2" class="brand-mark" alt="noma"></a>
     <a class="back" href="index.html">volver a proyectos</a>
   </div>
+  <div class="side-name only-desktop">
+    <h1 class="js-name"></h1>
+    <p class="js-subtitle"></p>
+  </div>
 </aside>
 
 <div class="project-main">
   <div class="project-photos" id="p-photos"></div>
 
-  <div class="project-title-block">
-    <h1 id="p-name"></h1>
-    <p id="p-subtitle"></p>
+  <div class="project-title-block only-mobile">
+    <h1 class="js-name"></h1>
+    <p class="js-subtitle"></p>
   </div>
 
   <dl class="project-info" id="p-info"></dl>
@@ -45,14 +49,15 @@
 
   sanityQuery(query, {slug}).then((project) => {
     if (!project) {
-      document.getElementById('p-name').textContent = 'proyecto no encontrado';
+      document.querySelectorAll('.js-name').forEach((el) => (el.textContent = 'proyecto no encontrado'));
       return;
     }
 
     document.title = project.name + ' — noma estudio';
-    document.getElementById('p-name').textContent = project.name;
-    document.getElementById('p-subtitle').innerHTML =
-      (project.subtitle || '') + '<br>buenos aires, argentina';
+    document.querySelectorAll('.js-name').forEach((el) => (el.textContent = project.name));
+    document.querySelectorAll('.js-subtitle').forEach((el) => {
+      el.innerHTML = (project.subtitle || '') + '<br>buenos aires, argentina';
+    });
 
     const photosEl = document.getElementById('p-photos');
     (project.photos || []).forEach((photo, i) => {

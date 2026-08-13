@@ -151,15 +151,14 @@ img{display:block;max-width:100%;}
 }
 .project-sidebar .side-top a:hover{opacity:.6;}
 
-.project-title-block{
-  padding-bottom:28px;
-}
+.side-name h1,
 .project-title-block h1{
   font-size:20px;
   font-weight:400;
   letter-spacing:.01em;
   text-transform:lowercase;
 }
+.side-name p,
 .project-title-block p{
   margin-top:8px;
   font-size:13px;
@@ -167,6 +166,9 @@ img{display:block;max-width:100%;}
   opacity:.7;
   text-transform:lowercase;
 }
+.project-title-block{padding-bottom:28px;}
+
+.only-mobile{display:none;}
 
 .project-main{
   margin-left:240px;
@@ -207,6 +209,8 @@ img{display:block;max-width:100%;}
     padding:24px;
   }
   .project-main{margin-left:0;padding:0 24px 78px;}
+  .only-desktop{display:none;}
+  .only-mobile{display:block;}
 }
 
 /* ---------- Páginas a pantalla completa, sin scroll ---------- */
