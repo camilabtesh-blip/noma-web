@@ -150,13 +150,17 @@ img{display:block;max-width:100%;}
   text-transform:lowercase;
 }
 .project-sidebar .side-top a:hover{opacity:.6;}
-.project-sidebar .side-name h1{
+
+.project-title-block{
+  padding-bottom:28px;
+}
+.project-title-block h1{
   font-size:20px;
   font-weight:400;
   letter-spacing:.01em;
   text-transform:lowercase;
 }
-.project-sidebar .side-name p{
+.project-title-block p{
   margin-top:8px;
   font-size:13px;
   letter-spacing:.03em;
@@ -197,9 +201,9 @@ img{display:block;max-width:100%;}
     position:static;
     width:100%;
     height:auto;
-    flex-direction:row;
-    justify-content:space-between;
+    flex-direction:column;
     align-items:flex-start;
+    gap:20px;
     padding:24px;
   }
   .project-main{margin-left:0;padding:0 24px 78px;}
